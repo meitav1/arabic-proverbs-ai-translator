@@ -1,0 +1,31 @@
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Source PDFs
+pdf_files/
+pdf_files_A_intro/
+
+# Generated translations and reports
+translated_pages/
+translated_pages_B/
+translated_intro_A/
+translation_reports/
+translation_reports_B/
+parallel_results/
+measurement_results/
+
+# Generated Word documents
+*.docx
+
+# Additional source PDF folders
+אלאכוע חתוך 1/
+אכוע חלק 2/
+
+# Ignore PDF files anywhere in the project
+*.pdf
